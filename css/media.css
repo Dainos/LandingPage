@@ -2,7 +2,7 @@
     .instruction {
         flex-direction: column;
         align-items: center;
-        height: 1500px;
+        height: 1200px;
         
     }
 
@@ -208,6 +208,10 @@
 
 
 @media all and (max-width: 600px) {
+
+    .instruction {
+        height: 950px;
+    }
     .inst-scheme {
         width: 150%;
         font-size: 10pt;
